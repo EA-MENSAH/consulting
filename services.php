@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -62,11 +62,11 @@
     
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section ">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+      <div class="container section-title my-5" data-aos="fade-up">
+        <!-- <h2>Services</h2> -->
         <div><span>Check Our</span> <span class="description-title">Services</span></div>
       </div><!-- End Section Title -->
 

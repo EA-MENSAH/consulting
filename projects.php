@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -100,9 +100,9 @@
 
       <!-- Section Title -->
       <div class="container section-title " data-aos="fade-up">
-        <h2>PROJECTS</h2>
+        <!-- <h2>PROJECTS</h2> -->
         <div class="d-flex justify-content-center fw-light">
-          <p style="font-size: 15px; max-width: 8in; text-align: center;">
+          <p style="font-size: 24px; max-width: 8in; text-align: center;">
             Solutions Delivered, Innovations in Progress
           </p>
         </div>

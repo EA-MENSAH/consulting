@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -67,8 +67,8 @@
               <p>We deliver bold, innovative solutions for a resilient future.
                 Partnering to preserve the planet and uplift communities</p>
               <div class="hero-btns">
-                <a href="#consultation" class="btn btn-primary">Get a Free Consultation</a>
-                <a href="#services" class="btn btn-outline">Our Services</a>
+                <a href="services.php#consultation" class="btn btn-primary">Get a Free Consultation</a>
+                <a href="services.php" class="btn btn-outline">Our Services</a>
               </div>
               <div class="hero-stats">
                 <div class="stat-item">
@@ -91,7 +91,27 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/about/about-21.webp" alt="Consulting Services" class="img-fluid">
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/about/about-21.jpg" class="d-block img-fluid w-100 slide-img" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/about/about-22.jpg" class="d-block img-fluid w-100 slide-img" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/about/about-23.jpg" class="d-block img-fluid w-100 slide-img" alt="...">
+                </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -151,7 +171,7 @@
                       <i class="bi bi-people"></i>
                     </div>
                     <h4>Expert Team</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                    <startp>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
                   </div>
                 </div>
 

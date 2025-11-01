@@ -9,7 +9,7 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.ico" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -70,11 +70,11 @@
         <section id="about" class="about section">
 
            <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <!-- <h2>About</h2> -->
         <div><span>Get to know</span> <span class="description-title">Us</span></div>
       </div><!-- End Section Title -->
                     
-                    <p class="lead">We are a global green consultancy firm, we collaborate and partner with the global
+                    <p class="lead px-5 text-center">We are a global green consultancy firm, we collaborate and partner with the global
                         and regional leading organization, creating solutions and unlocking opportunities for clients
                         that meet the needs of today while preserving the planet. We champion the bold to achieve the
                         extraordinary.</p>

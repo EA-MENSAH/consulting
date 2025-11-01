@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -66,7 +66,7 @@
     <section id="contact" class="contact section">
       <!-- Section Title -->
       <div class="container section-title">
-        <h2>Contact</h2>
+        <!-- <h2>Contact</h2> -->
         <div><span>Contact</span> <span class="description-title">Us</span></div>
       </div><!-- End Section Title -->
 

@@ -44,6 +44,9 @@
   --surface-color: #ffffff;
 }
 
+.text-base{
+  color:#005751
+}
 .dark-background {
   --background-color: #005751;
   --default-color: #ffffff;
@@ -1066,6 +1069,11 @@ section,
   transition: all 0.3s ease;
 }
 
+ .btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
 .work-process .steps-content .steps-cta .btn-primary {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
@@ -1073,6 +1081,13 @@ section,
 }
 
 .work-process .steps-content .steps-cta .btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), #000 10%);
+  border-color: color-mix(in srgb, var(--accent-color), #000 10%);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), #000 10%);
   border-color: color-mix(in srgb, var(--accent-color), #000 10%);
   transform: translateY(-3px);
@@ -2653,6 +2668,10 @@ section,
   color: var(--accent-color);
 }
 
+.slide-img{
+  height:4in !important;
+  object-fit: cover !important;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
